@@ -1,1 +1,9 @@
 <h1>Hello World</h1>
+
+<script>
+  window.addEventListener("message", (event) => {
+  if (event.origin !== "https://sayemzaman.github.io/Hello-world/")
+    return;
+
+  // ...
+}, false);
